@@ -1,7 +1,6 @@
 package org.adri.apinotaalta.DTO;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
 
 public class AltaInDTO implements Serializable {
     private String user;

@@ -1,6 +1,5 @@
 package org.adri.apinotaalta.controller;
 
-import com.google.firebase.internal.FirebaseService;
 import org.adri.apinotaalta.DTO.AltaInDTO;
 import org.adri.apinotaalta.service.AltaService;
 import org.slf4j.Logger;
