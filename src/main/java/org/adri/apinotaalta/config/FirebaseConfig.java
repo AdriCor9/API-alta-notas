@@ -26,7 +26,7 @@ public class FirebaseConfig {
             );
         } else {
             FileInputStream serviceAccount = new FileInputStream(
-                    "src/main/resources/firebase-service-account.json"
+                    "src/main/resources/firebase-settings-acount.json"
             );
             credentials = GoogleCredentials.fromStream(serviceAccount);
         }
