@@ -23,6 +23,7 @@ public class AltaService {
         data.put("title",dataIn.getTitulo());
         data.put("description",dataIn.getDescripcion());
         data.put("date", LocalDateTime.now().toString());
+        data.put("color",dataIn.getColor());
 
         firestore.collection("notas")
                 .add(data)
